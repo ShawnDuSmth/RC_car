@@ -1,7 +1,7 @@
 0000              1   ;--------------------------------------------------------
 0000              2   ; File Created by C51
 0000              3   ; Version 1.0.0 #1170 (Feb 16 2022) (MSVC)
-0000              4   ; This file was generated Tue Mar 26 19:44:28 2024
+0000              4   ; This file was generated Tue Mar 26 19:48:33 2024
 0000              5   ;--------------------------------------------------------
                   5   $name EFM8_JDY40_Transmitter
                   6   $optc51 --model-small
@@ -1468,97 +1468,117 @@
 0453 E581      1468            mov     a,sp
 0455 24F2      1469            add     a,#0xf2
 0457 F581      1470            mov     sp,a
-0459           1471   ;        EFM8_JDY40_Transmitter.c:387: sendstr1(buff);
-0459 901680    1472            mov     dptr,#_buff
-045C 75F040    1473            mov     b,#0x40
-045F 120000    1474            lcall   _sendstr1
-0462           1475   ;        EFM8_JDY40_Transmitter.c:389: waitms(100);
-0462 900064    1476            mov     dptr,#0x0064
-0465 120000    1477            lcall   _waitms
-0468 8000      1478            sjmp    L020002?
-046A           1479            rseg R_CSEG
-046A           1480   
-0000           1481            rseg R_XINIT
-0000           1482   
-0000           1483            rseg R_CONST
-0000           1484   __str_0:
-0000 436F6D6D  1485            db 'Command: %s'
+0459           1471   ;        EFM8_JDY40_Transmitter.c:385: printf("%s",buff);
+0459 7480      1472            mov     a,#_buff
+045B C0E0      1473            push    acc
+045D 7416      1474            mov     a,#(_buff >> 8)
+045F C0E0      1475            push    acc
+0461 7440      1476            mov     a,#0x40
+0463 C0E0      1477            push    acc
+0465 7440      1478            mov     a,#__str_12
+0467 C0E0      1479            push    acc
+0469 74C7      1480            mov     a,#(__str_12 >> 8)
+046B C0E0      1481            push    acc
+046D 7480      1482            mov     a,#0x80
+046F C0E0      1483            push    acc
+0471 120000    1484            lcall   _printf
+0474 E581      1485            mov     a,sp
+0476 24FA      1486            add     a,#0xfa
+0478 F581      1487            mov     sp,a
+047A           1488   ;        EFM8_JDY40_Transmitter.c:388: sendstr1(buff);
+047A 901680    1489            mov     dptr,#_buff
+047D 75F040    1490            mov     b,#0x40
+0480 120000    1491            lcall   _sendstr1
+0483           1492   ;        EFM8_JDY40_Transmitter.c:390: waitms(100);
+0483 900064    1493            mov     dptr,#0x0064
+0486 120000    1494            lcall   _waitms
+0489 020000    1495            ljmp    L020002?
+048C           1496            rseg R_CSEG
+048C           1497   
+0000           1498            rseg R_XINIT
+0000           1499   
+0000           1500            rseg R_CONST
+0000           1501   __str_0:
+0000 436F6D6D  1502            db 'Command: %s'
      616E643A
      202573
-000B 00        1486            db 0x00
-000C           1487   __str_1:
-000C 52657370  1488            db 'Response: %s'
+000B 00        1503            db 0x00
+000C           1504   __str_1:
+000C 52657370  1505            db 'Response: %s'
      6F6E7365
      3A202573
-0018 0D        1489            db 0x0D
-0019 0A        1490            db 0x0A
-001A 00        1491            db 0x00
-001B           1492   __str_2:
-001B 0D        1493            db 0x0D
-001C 0A        1494            db 0x0A
-001D 4A44592D  1495            db 'JDY-40 test'
+0018 0D        1506            db 0x0D
+0019 0A        1507            db 0x0A
+001A 00        1508            db 0x00
+001B           1509   __str_2:
+001B 0D        1510            db 0x0D
+001C 0A        1511            db 0x0A
+001D 4A44592D  1512            db 'JDY-40 test'
      34302074
      657374
-0028 0D        1496            db 0x0D
-0029 0A        1497            db 0x0A
-002A 00        1498            db 0x00
-002B           1499   __str_3:
-002B 41542B44  1500            db 'AT+DVIDBBDB'
+0028 0D        1513            db 0x0D
+0029 0A        1514            db 0x0A
+002A 00        1515            db 0x00
+002B           1516   __str_3:
+002B 41542B44  1517            db 'AT+DVIDBBDB'
      56494442
      424442
-0036 0D        1501            db 0x0D
-0037 0A        1502            db 0x0A
-0038 00        1503            db 0x00
-0039           1504   __str_4:
-0039 41542B56  1505            db 'AT+VER'
+0036 0D        1518            db 0x0D
+0037 0A        1519            db 0x0A
+0038 00        1520            db 0x00
+0039           1521   __str_4:
+0039 41542B56  1522            db 'AT+VER'
      4552
-003F 0D        1506            db 0x0D
-0040 0A        1507            db 0x0A
-0041 00        1508            db 0x00
-0042           1509   __str_5:
-0042 41542B42  1510            db 'AT+BAUD'
+003F 0D        1523            db 0x0D
+0040 0A        1524            db 0x0A
+0041 00        1525            db 0x00
+0042           1526   __str_5:
+0042 41542B42  1527            db 'AT+BAUD'
      415544
-0049 0D        1511            db 0x0D
-004A 0A        1512            db 0x0A
-004B 00        1513            db 0x00
-004C           1514   __str_6:
-004C 41542B52  1515            db 'AT+RFID'
+0049 0D        1528            db 0x0D
+004A 0A        1529            db 0x0A
+004B 00        1530            db 0x00
+004C           1531   __str_6:
+004C 41542B52  1532            db 'AT+RFID'
      464944
-0053 0D        1516            db 0x0D
-0054 0A        1517            db 0x0A
-0055 00        1518            db 0x00
-0056           1519   __str_7:
-0056 41542B44  1520            db 'AT+DVID'
+0053 0D        1533            db 0x0D
+0054 0A        1534            db 0x0A
+0055 00        1535            db 0x00
+0056           1536   __str_7:
+0056 41542B44  1537            db 'AT+DVID'
      564944
-005D 0D        1521            db 0x0D
-005E 0A        1522            db 0x0A
-005F 00        1523            db 0x00
-0060           1524   __str_8:
-0060 41542B52  1525            db 'AT+RFC'
+005D 0D        1538            db 0x0D
+005E 0A        1539            db 0x0A
+005F 00        1540            db 0x00
+0060           1541   __str_8:
+0060 41542B52  1542            db 'AT+RFC'
      4643
-0066 0D        1526            db 0x0D
-0067 0A        1527            db 0x0A
-0068 00        1528            db 0x00
-0069           1529   __str_9:
-0069 41542B50  1530            db 'AT+POWE'
+0066 0D        1543            db 0x0D
+0067 0A        1544            db 0x0A
+0068 00        1545            db 0x00
+0069           1546   __str_9:
+0069 41542B50  1547            db 'AT+POWE'
      4F5745
-0070 0D        1531            db 0x0D
-0071 0A        1532            db 0x0A
-0072 00        1533            db 0x00
-0073           1534   __str_10:
-0073 41542B43  1535            db 'AT+CLSS'
+0070 0D        1548            db 0x0D
+0071 0A        1549            db 0x0A
+0072 00        1550            db 0x00
+0073           1551   __str_10:
+0073 41542B43  1552            db 'AT+CLSS'
      4C5353
-007A 0D        1536            db 0x0D
-007B 0A        1537            db 0x0A
-007C 00        1538            db 0x00
-007D           1539   __str_11:
-007D 252E3466  1540            db '%.4f %.4f'
+007A 0D        1553            db 0x0D
+007B 0A        1554            db 0x0A
+007C 00        1555            db 0x00
+007D           1556   __str_11:
+007D 252E3466  1557            db '%.4f %.4f'
      20252E34
      66
-0086 0D        1541            db 0x0D
-0087 0A        1542            db 0x0A
-0088 00        1543            db 0x00
-0089           1544   
-0003           1545            CSEG
-0003           1546   
-0003           1547   end
+0086 0D        1558            db 0x0D
+0087 0A        1559            db 0x0A
+0088 00        1560            db 0x00
+0089           1561   __str_12:
+0089 2573      1562            db '%s'
+008B 00        1563            db 0x00
+008C           1564   
+0003           1565            CSEG
+0003           1566   
+0003           1567   end

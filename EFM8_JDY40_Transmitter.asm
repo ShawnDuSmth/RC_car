@@ -1,7 +1,7 @@
 ;--------------------------------------------------------
 ; File Created by C51
 ; Version 1.0.0 #1170 (Feb 16 2022) (MSVC)
-; This file was generated Tue Mar 26 19:44:28 2024
+; This file was generated Tue Mar 26 19:48:33 2024
 ;--------------------------------------------------------
 $name EFM8_JDY40_Transmitter
 $optc51 --model-small
@@ -1468,14 +1468,31 @@ L020002?:
 	mov	a,sp
 	add	a,#0xf2
 	mov	sp,a
-;	EFM8_JDY40_Transmitter.c:387: sendstr1(buff);
+;	EFM8_JDY40_Transmitter.c:385: printf("%s",buff);
+	mov	a,#_buff
+	push	acc
+	mov	a,#(_buff >> 8)
+	push	acc
+	mov	a,#0x40
+	push	acc
+	mov	a,#__str_12
+	push	acc
+	mov	a,#(__str_12 >> 8)
+	push	acc
+	mov	a,#0x80
+	push	acc
+	lcall	_printf
+	mov	a,sp
+	add	a,#0xfa
+	mov	sp,a
+;	EFM8_JDY40_Transmitter.c:388: sendstr1(buff);
 	mov	dptr,#_buff
 	mov	b,#0x40
 	lcall	_sendstr1
-;	EFM8_JDY40_Transmitter.c:389: waitms(100);
+;	EFM8_JDY40_Transmitter.c:390: waitms(100);
 	mov	dptr,#0x0064
 	lcall	_waitms
-	sjmp	L020002?
+	ljmp	L020002?
 	rseg R_CSEG
 
 	rseg R_XINIT
@@ -1540,6 +1557,9 @@ __str_11:
 	db '%.4f %.4f'
 	db 0x0D
 	db 0x0A
+	db 0x00
+__str_12:
+	db '%s'
 	db 0x00
 
 	CSEG

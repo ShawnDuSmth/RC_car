@@ -285,8 +285,6 @@ void main (void)
     TCCR0A |= (1 << WGM01) | (1 << WGM00); // set fast PWM Mode
     TCCR0B |= (1 << CS00); // set prescaler to none and starts PWM
 	
-	printf("\r\nPress and hold a push-button attached to PD3 (pin 5) to transmit.\r\n");
-	
 	cnt=0;
 	while(1)
 	{
@@ -303,6 +301,7 @@ void main (void)
 
 			iXAngle = atof(sXAngle);
 			iYAngle = atof(sYAngle);
+			printf("%s",buff);
 		}
 
 		OCR0A=128;

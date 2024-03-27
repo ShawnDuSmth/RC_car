@@ -628,13 +628,13 @@ F5 F0
 90 data16(__str_10;)  
 75 F0 80
 12 addr16(_SendATCommand;)  
-75 82 0E
+75 82 05
 12 addr16(_Volts_at_Pin;)  
 85 82 data8(_main_X_pos_L_1_107;)
 85 83 data8(_main_X_pos_L_1_107;0x0001;+;)
 85 F0 data8(_main_X_pos_L_1_107;0x0002;+;)
 F5 data8(_main_X_pos_L_1_107;0x0003;+;)
-75 82 0F
+75 82 04
 12 addr16(_Volts_at_Pin;)  
 AE 82
 AF 83

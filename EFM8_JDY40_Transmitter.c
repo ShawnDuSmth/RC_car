@@ -378,11 +378,10 @@ void main (void)
 		// readng the analog voltage of left joystick X position
 		// // on pin 2.1
 
-		X_pos_L = Volts_at_Pin(QFP32_MUX_P2_1);
-		Y_pos_R = Volts_at_Pin(QFP32_MUX_P2_2);
+		X_pos_L = Volts_at_Pin(QFP32_MUX_P0_7);
+		Y_pos_R = Volts_at_Pin(QFP32_MUX_P0_6);
 		
 		sprintf(buff, "%.4f %.4f\r\n", X_pos_L, Y_pos_R);
-		//printf("%s",buff);
 
 		// sendstr1("beep\n");
 		sendstr1(buff);

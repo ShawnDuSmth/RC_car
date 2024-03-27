@@ -199,7 +199,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x1474
+.text           0x00000000     0x1494
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5/crtatmega328.o
                 0x00000000                __vector_default
@@ -347,231 +347,231 @@ END GROUP
  .text          0x000007a8        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
                 0x000007a8                        . = ALIGN (0x2)
  *(.text.*)
- .text.startup  0x000007a8      0x10e ATMMEGA_Receiver.o
+ .text.startup  0x000007a8      0x12e ATMMEGA_Receiver.o
                 0x000007a8                main
  .text.libgcc.mul
-                0x000008b6        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+                0x000008d6        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.div
-                0x000008b6       0x2e C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
-                0x000008b6                __divmodsi4
- .text.libgcc   0x000008e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+                0x000008d6       0x2e C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+                0x000008d6                __divmodsi4
+ .text.libgcc   0x00000904        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.prologue
-                0x000008e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000904        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.builtins
-                0x000008e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000904        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.fmul
-                0x000008e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000904        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.fixed
-                0x000008e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000904        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.mul
-                0x000008e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+                0x00000904        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.div
-                0x000008e4       0x10 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
-                0x000008e4                __negsi2
- .text.libgcc   0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+                0x00000904       0x10 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+                0x00000904                __negsi2
+ .text.libgcc   0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.prologue
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.builtins
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fmul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fixed
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.mul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.div
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.mul
-                0x000008f4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000914        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.div
-                0x000008f4       0x44 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x000008f4                __udivmodsi4
- .text.libgcc   0x00000938        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000914       0x44 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000914                __udivmodsi4
+ .text.libgcc   0x00000958        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.prologue
-                0x00000938        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000958        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.builtins
-                0x00000938        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000958        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fmul
-                0x00000938        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000958        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
-                0x00000938        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000958        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.avr-libc
-                0x00000938        0x8 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(atof.o)
-                0x00000938                atof
+                0x00000958        0x8 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(atof.o)
+                0x00000958                atof
  .text.avr-libc
-                0x00000940       0x2c C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(printf.o)
-                0x00000940                printf
+                0x00000960       0x2c C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(printf.o)
+                0x00000960                printf
  .text.avr-libc
-                0x0000096c       0x58 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(puts.o)
-                0x0000096c                puts
+                0x0000098c       0x58 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(puts.o)
+                0x0000098c                puts
  .text.avr-libc
-                0x000009c4      0x3b6 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
-                0x000009c4                vfprintf
+                0x000009e4      0x3b6 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x000009e4                vfprintf
  .text.avr-libc
-                0x00000d7a      0x27c C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strtod.o)
-                0x00000d7a                strtod
+                0x00000d9a      0x27c C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+                0x00000d9a                strtod
  .text.avr-libc
-                0x00000ff6       0x12 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(isspace.o)
-                0x00000ff6                isspace
+                0x00001016       0x12 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+                0x00001016                isspace
  .text.avr-libc
-                0x00001008       0x30 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
-                0x00001008                strncasecmp_P
+                0x00001028       0x30 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+                0x00001028                strncasecmp_P
  .text.avr-libc
-                0x00001038       0x16 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                0x00001038                strnlen_P
+                0x00001058       0x16 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00001058                strnlen_P
  .text.avr-libc
-                0x0000104e       0x16 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                0x0000104e                strnlen
+                0x0000106e       0x16 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x0000106e                strnlen
  .text.avr-libc
-                0x00001064       0x60 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fputc.o)
-                0x00001064                fputc
+                0x00001084       0x60 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00001084                fputc
  .text.avr-libc
-                0x000010c4       0xbc C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                0x000010c4                __ultoa_invert
+                0x000010e4       0xbc C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x000010e4                __ultoa_invert
  .text.avr-libc.fplib
-                0x00001180        0xa C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
-                0x00001180                __nesf2
-                0x00001180                __eqsf2
-                0x00001180                __cmpsf2
-                0x00001180                __ltsf2
-                0x00001180                __lesf2
+                0x000011a0        0xa C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+                0x000011a0                __nesf2
+                0x000011a0                __eqsf2
+                0x000011a0                __cmpsf2
+                0x000011a0                __ltsf2
+                0x000011a0                __lesf2
  .text.avr-libc.fplib
-                0x0000118a       0x7a C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(floatsisf.o)
-                0x0000118a                __floatunsisf
-                0x0000118e                __floatsisf
+                0x000011aa       0x7a C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(floatsisf.o)
+                0x000011aa                __floatunsisf
+                0x000011ae                __floatsisf
  .text.avr-libc.fplib
-                0x00001204       0x48 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
-                0x00001204                __fp_cmp
+                0x00001224       0x48 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+                0x00001224                __fp_cmp
  .text.avr-libc.fplib
-                0x0000124c        0x8 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(mulsf3.o)
-                0x0000124c                __mulsf3
+                0x0000126c        0x8 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(mulsf3.o)
+                0x0000126c                __mulsf3
  .text.avr-libc.fplib
-                0x00001254       0xd2 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
-                0x00001272                __mulsf3x
-                0x00001278                __mulsf3_pse
+                0x00001274       0xd2 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
+                0x00001292                __mulsf3x
+                0x00001298                __mulsf3_pse
  .text.avr-libc
-                0x00001326        0x6 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
-                0x00001326                __ctype_isfalse
-                0x0000132a                __ctype_istrue
+                0x00001346        0x6 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                0x00001346                __ctype_isfalse
+                0x0000134a                __ctype_istrue
  .text.avr-libc.fplib
-                0x0000132c        0xc C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_inf.o)
-                0x0000132c                __fp_inf
+                0x0000134c        0xc C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_inf.o)
+                0x0000134c                __fp_inf
  .text.avr-libc.fplib
-                0x00001338        0x6 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_nan.o)
-                0x00001338                __fp_nan
+                0x00001358        0x6 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_nan.o)
+                0x00001358                __fp_nan
  .text.avr-libc.fplib
-                0x0000133e        0xe C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
-                0x0000133e                __fp_pscA
+                0x0000135e        0xe C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
+                0x0000135e                __fp_pscA
  .text.avr-libc.fplib
-                0x0000134c        0xe C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
-                0x0000134c                __fp_pscB
+                0x0000136c        0xe C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
+                0x0000136c                __fp_pscB
  .text.avr-libc.fplib
-                0x0000135a       0x22 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_round.o)
-                0x0000135a                __fp_round
+                0x0000137a       0x22 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_round.o)
+                0x0000137a                __fp_round
  .text.avr-libc.fplib
-                0x0000137c       0x44 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_split3.o)
-                0x0000137c                __fp_split3
-                0x0000138c                __fp_splitA
+                0x0000139c       0x44 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+                0x0000139c                __fp_split3
+                0x000013ac                __fp_splitA
  .text.avr-libc.fplib
-                0x000013c0        0xe C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_zero.o)
-                0x000013c0                __fp_zero
-                0x000013c2                __fp_szero
+                0x000013e0        0xe C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+                0x000013e0                __fp_zero
+                0x000013e2                __fp_szero
  .text.libgcc.mul
-                0x000013ce       0x16 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
-                0x000013ce                __muluhisi3
+                0x000013ee       0x16 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+                0x000013ee                __muluhisi3
  .text.libgcc.div
-                0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
- .text.libgcc   0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
  .text.libgcc.prologue
-                0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
  .text.libgcc.builtins
-                0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
  .text.libgcc.fmul
-                0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
  .text.libgcc.fixed
-                0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
  .text.libgcc.mul
-                0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+                0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.div
-                0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
- .text.libgcc   0x000013e4        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+                0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00001404        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.prologue
-                0x000013e4       0x38 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
-                0x000013e4                __prologue_saves__
+                0x00001404       0x38 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+                0x00001404                __prologue_saves__
  .text.libgcc.builtins
-                0x0000141c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+                0x0000143c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fmul
-                0x0000141c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+                0x0000143c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fixed
-                0x0000141c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+                0x0000143c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
  .text.libgcc.mul
-                0x0000141c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+                0x0000143c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.div
-                0x0000141c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
- .text.libgcc   0x0000141c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+                0x0000143c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000143c        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.prologue
-                0x0000141c       0x36 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
-                0x0000141c                __epilogue_restores__
+                0x0000143c       0x36 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+                0x0000143c                __epilogue_restores__
  .text.libgcc.builtins
-                0x00001452        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+                0x00001472        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fmul
-                0x00001452        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+                0x00001472        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fixed
-                0x00001452        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+                0x00001472        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.mul
-                0x00001452       0x1e C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00001452                __umulhisi3
+                0x00001472       0x1e C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001472                __umulhisi3
  .text.libgcc.div
-                0x00001470        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
- .text.libgcc   0x00001470        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001490        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00001490        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.prologue
-                0x00001470        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001490        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.builtins
-                0x00001470        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001490        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.fmul
-                0x00001470        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001490        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.fixed
-                0x00001470        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00001470                        . = ALIGN (0x2)
+                0x00001490        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001490                        . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00001470        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
-                0x00001470                _exit
-                0x00001470                exit
+ .fini9         0x00001490        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+                0x00001490                _exit
+                0x00001490                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -590,17 +590,17 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00001470        0x4 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00001490        0x4 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx.*)
-                0x00001474                        . = ALIGN (0x2)
+                0x00001494                        . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
-                0x00001474                        _etext = .
+                0x00001494                        _etext = .
 
-.data           0x00800100       0xe4 load address 0x00001474
+.data           0x00800100       0xe4 load address 0x00001494
                 0x00800100                        PROVIDE (__data_start = .)
  *(.data)
  .data          0x00800100        0x0 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5/crtatmega328.o
@@ -651,6 +651,7 @@ END GROUP
  *(.rodata*)
  .rodata.str1.1
                 0x00800112       0xd2 ATMMEGA_Receiver.o
+                                 0xd5 (size before relaxing)
  *(.gnu.linkonce.r*)
                 0x008001e4                        . = ALIGN (0x2)
                 0x008001e4                        _edata = .
@@ -711,8 +712,8 @@ END GROUP
  *(.bss*)
  *(COMMON)
                 0x008001f4                        PROVIDE (__bss_end = .)
-                0x00001474                        __data_load_start = LOADADDR (.data)
-                0x00001558                        __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00001494                        __data_load_start = LOADADDR (.data)
+                0x00001578                        __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x008001f4        0x0
                 [!provide]                        PROVIDE (__noinit_start = .)
@@ -824,56 +825,56 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x13a9
+.debug_info     0x00000000     0x13b5
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5/crtatmega328.o
- .debug_info    0x000005f4      0x778 ATMMEGA_Receiver.o
- .debug_info    0x00000d6c      0x2ce usart.o
- .debug_info    0x0000103a      0x207 Software_UART.o
- .debug_info    0x00001241       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
- .debug_info    0x00001265       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
- .debug_info    0x00001289       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
- .debug_info    0x000012ad       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
- .debug_info    0x000012d1       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
- .debug_info    0x000012f5       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
- .debug_info    0x00001319       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
- .debug_info    0x0000133d       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
- .debug_info    0x00001361       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
- .debug_info    0x00001385       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+ .debug_info    0x000005f4      0x784 ATMMEGA_Receiver.o
+ .debug_info    0x00000d78      0x2ce usart.o
+ .debug_info    0x00001046      0x207 Software_UART.o
+ .debug_info    0x0000124d       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+ .debug_info    0x00001271       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+ .debug_info    0x00001295       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+ .debug_info    0x000012b9       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+ .debug_info    0x000012dd       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+ .debug_info    0x00001301       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+ .debug_info    0x00001325       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+ .debug_info    0x00001349       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+ .debug_info    0x0000136d       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+ .debug_info    0x00001391       0x24 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
 
-.debug_abbrev   0x00000000      0xc07
+.debug_abbrev   0x00000000      0xbfe
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5/crtatmega328.o
- .debug_abbrev  0x000005a2      0x2cb ATMMEGA_Receiver.o
- .debug_abbrev  0x0000086d      0x1ca usart.o
- .debug_abbrev  0x00000a37      0x108 Software_UART.o
- .debug_abbrev  0x00000b3f       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
- .debug_abbrev  0x00000b53       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
- .debug_abbrev  0x00000b67       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
- .debug_abbrev  0x00000b7b       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
- .debug_abbrev  0x00000b8f       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
- .debug_abbrev  0x00000ba3       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
- .debug_abbrev  0x00000bb7       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
- .debug_abbrev  0x00000bcb       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
- .debug_abbrev  0x00000bdf       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
- .debug_abbrev  0x00000bf3       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+ .debug_abbrev  0x000005a2      0x2c2 ATMMEGA_Receiver.o
+ .debug_abbrev  0x00000864      0x1ca usart.o
+ .debug_abbrev  0x00000a2e      0x108 Software_UART.o
+ .debug_abbrev  0x00000b36       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+ .debug_abbrev  0x00000b4a       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+ .debug_abbrev  0x00000b5e       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+ .debug_abbrev  0x00000b72       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000b86       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00000b9a       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+ .debug_abbrev  0x00000bae       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+ .debug_abbrev  0x00000bc2       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+ .debug_abbrev  0x00000bd6       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+ .debug_abbrev  0x00000bea       0x14 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
 
-.debug_line     0x00000000     0x1c5d
+.debug_line     0x00000000     0x1c73
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000       0x1d C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/../../../../avr/lib/avr5/crtatmega328.o
- .debug_line    0x0000001d      0xbfb ATMMEGA_Receiver.o
- .debug_line    0x00000c18      0x32b usart.o
- .debug_line    0x00000f43      0x6ba Software_UART.o
- .debug_line    0x000015fd       0xbd C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
- .debug_line    0x000016ba       0x51 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
- .debug_line    0x0000170b       0x51 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
- .debug_line    0x0000175c       0x87 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
- .debug_line    0x000017e3       0x75 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
- .debug_line    0x00001858      0x111 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
- .debug_line    0x00001969       0x81 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
- .debug_line    0x000019ea       0xed C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
- .debug_line    0x00001ad7       0xe7 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
- .debug_line    0x00001bbe       0x9f C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
+ .debug_line    0x0000001d      0xc11 ATMMEGA_Receiver.o
+ .debug_line    0x00000c2e      0x32b usart.o
+ .debug_line    0x00000f59      0x6ba Software_UART.o
+ .debug_line    0x00001613       0xbd C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_divmodsi4.o)
+ .debug_line    0x000016d0       0x51 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_negsi2.o)
+ .debug_line    0x00001721       0x51 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_exit.o)
+ .debug_line    0x00001772       0x87 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_copy_data.o)
+ .debug_line    0x000017f9       0x75 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_clear_bss.o)
+ .debug_line    0x0000186e      0x111 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_udivmodsi4.o)
+ .debug_line    0x0000197f       0x81 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_muluhisi3.o)
+ .debug_line    0x00001a00       0xed C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_prologue.o)
+ .debug_line    0x00001aed       0xe7 C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_epilogue.o)
+ .debug_line    0x00001bd4       0x9f C:/Programs/avr-gcc-13.2.0-x64-windows/bin/../lib/gcc/avr/13.2.0/avr5\libgcc.a(_umulhisi3.o)
 
 .debug_frame    0x00000000      0x2b8
  *(.debug_frame)

@@ -1,7 +1,7 @@
 0000              1   ;--------------------------------------------------------
 0000              2   ; File Created by C51
 0000              3   ; Version 1.0.0 #1170 (Feb 16 2022) (MSVC)
-0000              4   ; This file was generated Wed Mar 27 17:58:05 2024
+0000              4   ; This file was generated Thu Mar 28 15:09:06 2024
 0000              5   ;--------------------------------------------------------
                   5   $name EFM8_JDY40_Transmitter
                   6   $optc51 --model-small

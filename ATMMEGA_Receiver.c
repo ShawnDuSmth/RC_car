@@ -6,6 +6,7 @@
 #include <util/delay.h>
 #include "usart.h"
 #include "Software_UART.h"
+#include <string.h>
 
 /* Pinout for DIP28 ATMega328P:
 
@@ -257,8 +258,8 @@ void main (void)
 	int i, j;
 	int bufflen=0;
 	unsigned char k=0;
-	char sXAngle[6] = "";
-	char sYAngle[6] = "";
+	char sXAngle[6] = "0.000";
+	char sYAngle[6] = "0.000";
 
 	double iXAngle = 2.5;
 	double iYAngle = 2.5;
@@ -281,7 +282,7 @@ void main (void)
 	usart_init();   // configure the hardware usart and baudrate
 	Init_Software_Uart(); // Configure the sorftware UART
 	_delay_ms(500); // Give putty a chance to start before we send information...
-	printf("\r\nJDY-40 test\r\n");
+	//printf("\r\nJDY-40 test\r\n");
 	
 	// We should select an unique device ID.  The device ID can be a hex
 	// number from 0x0000 to 0xFFFF.  In this case is set to 0xBBDB
@@ -320,7 +321,7 @@ void main (void)
 	//PORTD &= ~(1<<5); // PD5=0
 	//PORTD &= ~(1<<6); // PD6=0
 	// Now turn on one of the outputs per loop cycle to check
-	double juicyburger = 69.42;
+	double juicyburger = 12.34;
 
 	while(1)
 	{
@@ -330,22 +331,22 @@ void main (void)
 			
 			bufflen = strlen(buff);
 			if (bufflen == 13){
-				//printf("%s\n",buff);
+				printf("%s\n",buff);
 				//printf("%0.4lf\n",juicyburger);
 				
-				strncpy(sXAngle, buff + 0, 6);
-				sXAngle[6] = '\0'; // Null-terminate the extracted string
-				strncpy(sYAngle, buff + 7, 13);
-				sYAngle[6] = '\0'; // Null-terminate the extracted string
+				// strncpy(sXAngle, buff + 0, 6);
+				// sXAngle[6] = '\0'; // Null-terminate the extracted string
+				// strncpy(sYAngle, buff + 7, 13);
+				// sYAngle[6] = '\0'; // Null-terminate the extracted string
 
-				// for(i = 0; i < 6; i++){
-				// 	sXAngle[i] = buff[i];
-				// }
-				// sXAngle[6] = '\0';
-				// for(j = 7; j < 13; j++){
-				// 	sYAngle[j-7] = buff[j];
-				// }
-				// sYAngle[6] = '\0';
+				for(i = 0; i < 6; i++){
+					sXAngle[i] = buff[i];
+				}
+				sXAngle[6] = '\0';
+				for(j = 7; j < 13; j++){
+					sYAngle[j-7] = buff[j];
+				}
+				sYAngle[6] = '\0';
 
 				// printf("%s, ", sXAngle);
 				// printf("%s\n", sYAngle);
@@ -354,20 +355,19 @@ void main (void)
 				// iYAngle = strtod(sYAngle,&ptr2);
 				// printf("%.4f, %.4f\n", iXAngle, iYAngle);
 
-				iXAngle = atof(sXAngle);
-				iYAngle = atof(sYAngle);
-				sprintf(buff, "test %0.4lf, %0.4lf\n", iXAngle, iYAngle);
-				printf("%s\n",buff);
+				
+				// iXAngle = atof(sXAngle);
+				// iXAngle = strtod(sXAngle, NULL);
+				// iYAngle = atof(sYAngle);
+				// // sprintf(buff, "test %0.4lf, %0.4lf\n", iXAngle, iYAngle);
+				// // printf("%s\n",buff);
 				// printf("%.4f, %.4f\n", iXAngle, iYAngle);
 			}
-			
 		}
 		
 		// scaling the voltage to 5V
 		// iXAngle *= 1.5151515;
 		// iYAngle *= 1.5151515;
-		
-
 		
 
 		// JOYSTICK VOLTAGES

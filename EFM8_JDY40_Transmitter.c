@@ -1,5 +1,3 @@
-
-
 #include <EFM8LB1.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -359,7 +357,7 @@ void main (void)
 	
 	// We should select an unique device ID.  The device ID can be a hex
 	// number from 0x0000 to 0xFFFF.  In this case is set to 0xABBA
-	SendATCommand("AT+DVIDBBDB\r\n");  
+	SendATCommand("AT+DVIDFBCD\r\n");  
 
 	// To check configuration
 	SendATCommand("AT+VER\r\n");
@@ -381,12 +379,13 @@ void main (void)
 		X_pos_L = Volts_at_Pin(QFP32_MUX_P0_7);
 		Y_pos_R = Volts_at_Pin(QFP32_MUX_P0_6);
 		
-		sprintf(buff, "%.4f %.4f\r\n", X_pos_L, Y_pos_R);
+		sprintf(buff, "%0.4f %0.4f\n\0", X_pos_L, Y_pos_R);
+		//printf("%s",buff);
 
 		// sendstr1("beep\n");
 		sendstr1(buff);
 		
-		waitms(100);
+		waitms(30);
 	}
 }
 
